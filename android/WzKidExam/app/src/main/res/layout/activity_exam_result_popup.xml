@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ExamActivity">
-
+    <Button
+        android:id="@+id/btnPopupClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/button_close_popup"
+        android:textSize="30dp"/>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvExamResult"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toTopOf="@+id/btnPopupClose"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:textSize="30dp" />
@@ -31,13 +41,5 @@
         android:layout_marginTop="10dp"
         android:textSize="20dp"
         android:textAlignment="inherit"/>-->
-    <Button
-        android:id="@+id/btnPopupClose"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="@string/button_close_popup"
-        android:textSize="30dp"/>
+
 </android.support.constraint.ConstraintLayout>
