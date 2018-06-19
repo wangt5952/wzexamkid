@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">家庭考场</string>
+    <string name="button_prepare_exam">准备考试</string>
+    <string name="message_prepare_exam">考题请看这里</string>
+    <string name="button_start_exam">开始考试</string>
+    <string name="button_exam_result">查看结果</string>
+    <string name="button_back">返回</string>
+    <string name="button_close_popup">关闭</string>
+    <string name="label_question_lib">题库</string>
+    <string name="label_question_count">题量</string>
+    <string name="label_answer_limit">每题答题限时</string>
+</resources>
