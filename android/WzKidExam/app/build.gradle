@@ -4,8 +4,8 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "cn.wz.kid.wzkidexam"
-        minSdkVersion 27
-        targetSdkVersion 27
+        minSdkVersion 19
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

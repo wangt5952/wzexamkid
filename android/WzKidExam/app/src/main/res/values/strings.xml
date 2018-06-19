@@ -8,5 +8,5 @@
     <string name="button_close_popup">关闭</string>
     <string name="label_question_lib">题库</string>
     <string name="label_question_count">题量</string>
-    <string name="label_answer_limit">每题答题限时</string>
+    <string name="label_answer_limit">每题答题限时（秒）</string>
 </resources>
